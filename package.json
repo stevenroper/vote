@@ -1,0 +1,25 @@
+{
+  "name": "vote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --recursive"
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenroper/vote.git"
+  },
+  "author": "Steven Roper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenroper/vote/issues"
+  },
+  "homepage": "https://github.com/stevenroper/vote#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
